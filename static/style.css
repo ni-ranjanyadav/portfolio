@@ -1,0 +1,74 @@
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Body styling */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    transition: 0.4s ease;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 15px 30 px;
+}
+
+/* Hero section */
+.hero-title {
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.hero-subtitle {
+    max-width: 700px;
+    margin: auto;
+    color: #bbb;
+}
+
+/* Buttons */
+.btn-primary {
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+
+/* Card styling */
+.card {
+    border-radius: 30px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Table */
+table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Contact form */
+input, textarea {
+    border-radius: 10px !important;
+}
+
+/* Footer */
+footer {
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
+    color: #aaa;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #0d6efd;
+    box-shadow: 0 0 10px rgba(13, 110, 253, 0.7);
+}
